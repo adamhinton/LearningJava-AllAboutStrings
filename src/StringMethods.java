@@ -9,6 +9,9 @@ public class StringMethods {
         // substring() excludes the character at your second index. Good to know.
         System.out.printf("\n Month = %s", birthDate.substring(3, 5));
 
+        String newDate = String.join("/", "25", "11", "1982");
+        System.out.printf("\n newDate: %s", newDate);
+
     }
 
 }
